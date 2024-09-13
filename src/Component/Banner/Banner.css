@@ -1,0 +1,34 @@
+.Banner {
+    margin-top: 15px; 
+  
+    
+}
+
+
+.Banner-container {
+    background-image: url("../image/banner-horpicks.jpg");
+    height: 50vh; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    border-radius: 20px;
+    /* background: red; */
+}
+.gap{margin: 5px;}
+
+
+ @media (max-width: 750px) {
+    .Banner{
+        margin-top: 0px;
+      }
+    .Banner-container {
+        height: 30vh;
+        margin-top: 0px;
+        width: 100%; 
+    }
+    
+    
+ 
+} 
+

@@ -1,0 +1,16 @@
+.social {
+  justify-content: flex-end;
+}
+.img-content {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 5px ; */
+  background-color: #ffffff;
+ 
+}
+.details-add-div{}
+.details-add-btn{width: 90%; height:45px;background-color: red;color: white;}
+.details-save-div{}
+.details-save-btn{width: 90%;height:45px; background-color: transparent;border: 1px solid gray;}
+.details-save-btn-true{background:red;color:white;width: 90%;height:45px;}
