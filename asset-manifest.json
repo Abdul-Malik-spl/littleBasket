@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/littleBasket/static/css/main.c707c9e5.css",
+    "main.js": "/littleBasket/static/js/main.14d68775.js",
+    "static/js/453.e58572fb.chunk.js": "/littleBasket/static/js/453.e58572fb.chunk.js",
+    "static/media/10000326_16-fresho-coriander-leaves.jpg": "/littleBasket/static/media/10000326_16-fresho-coriander-leaves.f01529499fca6523c1b3.jpg",
+    "static/media/10000067_26-fresho-capsicum-green.jpg": "/littleBasket/static/media/10000067_26-fresho-capsicum-green.357ca471e0f672cb6e3e.jpg",
+    "static/media/10000074_20-fresho-cauliflower.jpg": "/littleBasket/static/media/10000074_20-fresho-cauliflower.742591c89337bff35d26.jpg",
+    "static/media/10000070_16-fresho-carrot-orange.jpg": "/littleBasket/static/media/10000070_16-fresho-carrot-orange.2e860648758a9ce7fc3b.jpg",
+    "static/media/banner-horpicks.jpg": "/littleBasket/static/media/banner-horpicks.38f3581713f6a038a443.jpg",
+    "static/media/126906_9-aashirvaad-atta-whole-wheat.webp": "/littleBasket/static/media/126906_9-aashirvaad-atta-whole-wheat.50d30bc8565b1ea548c7.webp",
+    "static/media/10000142_18-fresho-ladies-finger.webp": "/littleBasket/static/media/10000142_18-fresho-ladies-finger.3dc0e475af853b2c2292.webp",
+    "static/media/1201414_1-fresho-onion.webp": "/littleBasket/static/media/1201414_1-fresho-onion.295606e090d8d3c82fab.webp",
+    "static/media/40077518_1-fresho-cucumber.webp": "/littleBasket/static/media/40077518_1-fresho-cucumber.70784470602fbd4c731a.webp",
+    "static/media/neupass.png": "/littleBasket/static/media/neupass.c30c836fff0c99ddd9df.png",
+    "static/media/egg-meet-fish.png": "/littleBasket/static/media/egg-meet-fish.dd254265675ebd37c104.png",
+    "static/media/combo-store.png": "/littleBasket/static/media/combo-store.7f2418436c8c48d733e0.png",
+    "static/media/ayurveda.png": "/littleBasket/static/media/ayurveda.f36c1c893b5f5d3a56ec.png",
+    "static/media/buy-more-save-more.webp": "/littleBasket/static/media/buy-more-save-more.9fbb24e9873ea3d2b88e.webp",
+    "static/media/deal-of-the-week.webp": "/littleBasket/static/media/deal-of-the-week.6be34b4733e5d2b420c8.webp",
+    "index.html": "/littleBasket/index.html",
+    "main.c707c9e5.css.map": "/littleBasket/static/css/main.c707c9e5.css.map",
+    "main.14d68775.js.map": "/littleBasket/static/js/main.14d68775.js.map",
+    "453.e58572fb.chunk.js.map": "/littleBasket/static/js/453.e58572fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c707c9e5.css",
+    "static/js/main.14d68775.js"
+  ]
+}
