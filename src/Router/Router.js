@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {HashRouter as Router,Routes,Route} from 'react-router-dom'
 import AppMain from '../AppMain/AppMain'
 import Details from '../Component/Details/Details'
 import { Context } from '../Component/Context/Context.js'
@@ -15,7 +15,7 @@ let Router=()=>{
     return(
 
         <Context.Provider value={{state,dispatch}}>
-        <BrowserRouter>
+        <Router>
         <Routes>
             <Route path='/' element={<AppMain/>}/>
             <Route path='/Details' element={<Details/>}/>
@@ -24,7 +24,7 @@ let Router=()=>{
            
            
         </Routes>
-            </BrowserRouter>
+            </Router>
             </Context.Provider>
     )
 }
