@@ -9,7 +9,7 @@ import Bucket from '../Component/BucketDetails/Bucket.js'
 
 
 
-let Router=()=>{
+let MyRouter=()=>{
     let [state,dispatch]=useReducer(reduce,initialState)
 
     return(
@@ -28,4 +28,4 @@ let Router=()=>{
             </Context.Provider>
     )
 }
-export default Router
+export default MyRouter
