@@ -101,7 +101,7 @@ let Product = () => {
                   >
                     <span
                       className="bookmark col-6 col-md-6 col-lg-6 col-xlg-6"
-                      onClick={() => Fav(b, a.isFav)}
+                      onClick={() => Fav(b, a.isFav)}style={{display:"flex",alignItems:"center"}}
                     >
                       {a.isFav ? (
                         <FaBookmark style={{ color: "red" }} />
@@ -119,15 +119,20 @@ let Product = () => {
                           }}
                         >
                           -
+                        
                         </button>
                         <span className="col-4 col-md-4 col-lg-4 col-xlg-4 res">
+                          
                           {a.count}
+                         
                         </span>
                         <button
                           className="col-4 col-md-4 col-lg-4 col-xlg-4 plus"
                           onClick={() => plus(b, a.count)}
                         >
+                          
                           +
+                          
                         </button>
                       </div>
                     ) : (

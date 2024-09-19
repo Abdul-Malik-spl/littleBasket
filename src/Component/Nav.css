@@ -8,6 +8,17 @@
     top: 0px;
     background-color: #ffffff;
   }
+  .navbar2 {
+    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center; 
+    box-shadow: 1px 1px 10px gray;
+    position:sticky;
+    top: 0px;
+ 
+    display:none
+  }
   
   .nav-content {
     display: flex;
@@ -45,6 +56,15 @@
   .bucket-details{width:20%}
   .bucket-row{align-items: center;}
   .img-div-bucket,.price-div-bucket,.count-div-bucket,.item-price{margin: 5px;} 
+  @media (max-width:598px){
+    .drobdown{display: none;}
+  }
   @media(max-width:768px){
     .navbar{display: none;}
+    .navbar2{display:flex}
+    .bucket-details{width:40%}
+  }
+  @media(min-width:769px){
+    .navbar2{display: none;}
+    .navbar{display:flex}
   }

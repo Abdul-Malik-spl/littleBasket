@@ -1,19 +1,23 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Context } from '../Context/Context'
+import { HiHome } from "react-icons/hi";
+import {useNavigate} from 'react-router-dom'
+
 import './Favorite.css'
 
 
 let FavoriteItem=()=>{
     let {state,dispatch}=useContext(Context)
     let[FavItems,setFavItems]=useState([])
-
-    // useEffect(()=>{FilterItem()},[state.product])
-    // let FilterItem=()=>{
-    //     let FilterItems=state.product.filter((a,b)=>{
-    //         return a.isFav==true
-    //     })
-    //     setFavItems(FilterItems)
-    // }
+    let nav=useNavigate()
+console.log(FavItems.length)
+    useEffect(()=>{FilterItem()},[state.product])
+    let FilterItem=()=>{
+        let FilterItems=state.product.filter((a,b)=>{
+            return a.isFav==true
+        })
+        setFavItems(FilterItems)
+    }
 
     let add = (index) => {
         let objAdd = state.product.map((a, b) => {
@@ -58,9 +62,18 @@ let FavoriteItem=()=>{
 
 
     }
+
+    let goHome=()=>{
+      let msg="Home"
+    nav(`/?name=${msg}`)
+    }
     return(
         <div>
-          <h2>Your Favorite Items</h2>
+          <div style={{display:"flex",justifyContent:"space-between"}}>
+            {FavItems.length!=0?<h5 >Your Favorite Items</h5>:<h5>You Didn't Choose anything </h5>}
+          
+          <h5 onClick={goHome}><HiHome/>Home</h5>
+          </div>
             <div className="container">
                 <div className="row">
          {state.product.map((a,b)=>{

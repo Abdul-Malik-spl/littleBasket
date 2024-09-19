@@ -1,6 +1,6 @@
 #product{background-color: whitesmoke;}
 .cardStyle{border-radius: 10px;}
-.add-btn-card{ width: 100px;padding: 10px; background-color: transparent; color: red;border-color: red;}
+.add-btn-card{ padding: 15px; background-color: transparent; color: red;border-color: red;}
 
 .bookmark{margin-top: 5px;}
 .add-btn-card:hover{background-color: red;color: white;}
@@ -9,5 +9,5 @@ position: absolute;
 
 background-color: green;
 }
-.minus,.plus{background-color: red;color: white;}
-.res{border: 1px solid gray;display:flex;align-items: center;justify-content: center;}
+.minus,.plus{background-color: red;color: white;padding:5px}
+.res{border: 1px solid gray;display:flex;align-items: center;justify-content: center;padding:5px}

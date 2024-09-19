@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Nav";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams,useNavigate } from "react-router-dom";
 import { HiHome } from "react-icons/hi";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
@@ -13,6 +13,7 @@ import { useContext } from "react";
 let Details = () => {
   let { state, dispatch } = useContext(Context);
   let [selectProduct, setSelectProduct] = useState({});
+  let nav=useNavigate()
 
   useEffect(() => {
     find();
@@ -75,6 +76,11 @@ else{
 }
   }
 
+  let goHome=()=>{
+    let msg="Home"
+  nav(`/?name=${msg}`)
+  }
+
 
   return (
     <div>
@@ -86,12 +92,12 @@ else{
             style={{ background: "whitesmoke" }}
           >
             <span>
-              <HiHome />
+              <HiHome onClick={goHome} />
               Home
             </span>
-            <span> / Fruits & Vegtables</span>
-            <span> / Fresh Vegtables</span>
-            <span> / cucumber & capsicum</span>
+            <span onClick={goHome}> / Fruits & Vegtables</span>
+            <span onClick={goHome}> / Fresh Vegtables</span>
+            <span onClick={goHome}> / cucumber & capsicum</span>
           </div>
           <div
             className="social col-2 col-md-2 col-lg-2 col-xlg-2 row "
@@ -120,12 +126,12 @@ else{
         <div className="content" style={{ marginTop: "5%" }}>
           <div className="container">
             <div className="row">
-              <div className="col-2 col-md-2 col-lg-2 col-xlg-2"></div>
-              <div className="img-content col-5 col-md-5 col-lg-5 col-xlg-5">
+              <div className="col-0 col-md-0 col-lg-2 col-xlg-2"></div>
+              <div className="img-content col-5 col-md-6 col-lg-5 col-xlg-5">
                 <img src={selectProduct.img} width="100%" alt="" />
               </div>
 
-              <div className="price-details col-5 col-md-5 col-lg-5 col-xlg-5">
+              <div className="price-details col-7 col-md-6 col-lg-5 col-xlg-5">
                 <div style={{ marginLeft: "5px" }}>
                   <p>
                     <u style={{ color: "gray" }}>fresho!</u>

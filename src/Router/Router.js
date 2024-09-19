@@ -21,7 +21,7 @@ let MyRouter=()=>{
             <Route path='/Details' element={<Details/>}/>
             <Route path='/FavoriteItem' element={<FavoriteItem/>}/>
             <Route path='/Bucket' element={<Bucket/>}/>
-           
+             <Route path='*' element={<AppMain/>}/>
            
         </Routes>
             </Router>
