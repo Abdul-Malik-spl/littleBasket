@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/littleBasket/static/css/main.c707c9e5.css",
-    "main.js": "/littleBasket/static/js/main.28582c85.js",
+    "main.css": "/littleBasket/static/css/main.7d7eeb7e.css",
+    "main.js": "/littleBasket/static/js/main.95d5c5fa.js",
     "static/js/453.e58572fb.chunk.js": "/littleBasket/static/js/453.e58572fb.chunk.js",
     "static/media/10000326_16-fresho-coriander-leaves.jpg": "/littleBasket/static/media/10000326_16-fresho-coriander-leaves.f01529499fca6523c1b3.jpg",
     "static/media/10000067_26-fresho-capsicum-green.jpg": "/littleBasket/static/media/10000067_26-fresho-capsicum-green.357ca471e0f672cb6e3e.jpg",
@@ -19,12 +19,12 @@
     "static/media/buy-more-save-more.webp": "/littleBasket/static/media/buy-more-save-more.9fbb24e9873ea3d2b88e.webp",
     "static/media/deal-of-the-week.webp": "/littleBasket/static/media/deal-of-the-week.6be34b4733e5d2b420c8.webp",
     "index.html": "/littleBasket/index.html",
-    "main.c707c9e5.css.map": "/littleBasket/static/css/main.c707c9e5.css.map",
-    "main.28582c85.js.map": "/littleBasket/static/js/main.28582c85.js.map",
+    "main.7d7eeb7e.css.map": "/littleBasket/static/css/main.7d7eeb7e.css.map",
+    "main.95d5c5fa.js.map": "/littleBasket/static/js/main.95d5c5fa.js.map",
     "453.e58572fb.chunk.js.map": "/littleBasket/static/js/453.e58572fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c707c9e5.css",
-    "static/js/main.28582c85.js"
+    "static/css/main.7d7eeb7e.css",
+    "static/js/main.95d5c5fa.js"
   ]
 }
